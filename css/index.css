@@ -97,17 +97,16 @@ a{
     font-style: normal;
 }
 
-.citation{
+/* .citation{
     width: 100%;
     display: block;
 }
 
 .citation p{
     font-size: 17px;
-    /* display: flex; */
     text-align: center;
     width: 100%;
-}
+} */
 
 .first-view{
     margin-top: 80px;
