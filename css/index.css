@@ -1,5 +1,14 @@
 .site-menu ul li a {
-  font-family: "Klee One", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Klee One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header-logo{
+    display: block;
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
 }
