@@ -10,7 +10,7 @@ body {
     font-style: normal;
 } */
 
-.header-logo{
+.main-picture{
     display: flex;
     width: 100%;
     margin-left: auto;
@@ -22,4 +22,5 @@ body {
 .citiation{
     font-size: 12px;
     display: flex;
+    text-align: center;
 }
