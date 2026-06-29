@@ -1,8 +1,14 @@
-.site-menu ul li a {
-    font-family: "Klee One", cursive;
+body {
+        font-family: "Klee One", cursive;
     font-weight: 400;
     font-style: normal;
 }
+
+/* .site-menu ul li a {
+    font-family: "Klee One", cursive;
+    font-weight: 400;
+    font-style: normal;
+} */
 
 .header-logo{
     display: flex;
