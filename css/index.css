@@ -109,9 +109,16 @@ a{
 } */
 
 .first-view{
-    margin-top: 80px;
-    display: block;
+    height: calc(100vh - 110px);
+    background-image: url(../images/common/spain_city_02.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    display: flex;
     align-items: center;
+    margin-top: 80px;
+    /* display: block;
+    align-items: center; */
 }
 
 .Center-picture{
