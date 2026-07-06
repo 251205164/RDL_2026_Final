@@ -121,14 +121,26 @@ a{
     align-items: center; */
 }
 
-.Center-picture{
+/* .Center-picture{
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
     height: auto;
-}
+} */
 
 .second-view-text{
     text-align: center;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.footer-pic {
+    width: 300px;
+    height: auto;
 }
