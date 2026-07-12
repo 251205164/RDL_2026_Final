@@ -114,10 +114,32 @@ a{
 
 .second-view-text{
     text-align: center;
+    background: linear-gradient(to bottom, #f9b0bd, #fff5cc, #f9b0bd);
+    /* border-bottom:5px solid #f4ee82; */
+    padding-bottom: 8px;
+}
+
+
+.index-context{
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 100%;
+}
+
+.index-context p{
+    font-size: 20px;
+}
+
+.index-context h1{
+    /* font-size: 1.8vw;
+    white-space: nowrap;
+    letter-spacing: 0.1em; */
+    text-align: center;
 }
 
 .footer {
     /* position: fixed; */
+    position: flex;
     /*一番下に標示するように変更する*/
     bottom: 0;
     left: 0;
