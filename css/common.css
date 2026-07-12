@@ -1,4 +1,13 @@
 @charset "utf-8";
+
+nav.floating{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    background-color: #d0d0d0;
+    z-index: 5;
+}
+
 *,
 ::before,
 ::after{
@@ -18,10 +27,14 @@ body {
     font-style: normal;
     max-width: 1000px;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     margin-left: auto;
     margin-right: auto;
     background-color: #ffffff;
+}
+
+ul {
+    list-style: none;
 }
 
 a {
@@ -106,11 +119,85 @@ a {
 
 .footer-logo {
     display: inline-block;
-    margin-top: 45px;
+    margin-top: 30px;
 }
 
 .footer-logo img {
     display: inline-block;
     width: 300px;
     height: auto;
+}
+
+@media (max-width: 800px) {
+    .site-menu ul {
+        display: block;
+        text-align: center;
+    }
+
+    .site-menu li {
+        margin-top: 20px;
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #f4ee82;
+        height: 50px;
+        z-index: 10;
+    }
+
+    .header-inner {
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 100%;
+        position: relative;
+    }
+
+    .header-title{
+        font-size: 15px;
+    }
+
+    .header-logo {
+        width: 100px;
+    }
+
+    .header-site-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        color: #ffffff;
+        background-color: #736e62;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        display: none;
+    }
+
+    .header-site-menu.is-show {
+        display: block;
+    }
+
+    .toggle-menu-button {
+        display: block;
+        width:44px;
+        height: 34px;
+        background-image: url(../images/common/icon-menu.png);
+        background-size: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+        outline: none;
+    }
+
+    .main {
+        padding-top: 50px;
+    }
+
+    .footer-logo {
+        margin-top: 60px;
+    }
 }
