@@ -13,6 +13,11 @@ window.addEventListener('load', function() {
 
 $(function() {
     $(window).scroll(function() {
+
+        if (window.innerWidth <= 800) {
+            return;
+        }
+
         $("nav.floating").stop().animate(
             {"top": $(window).scrollTop() + 100},
         500);
