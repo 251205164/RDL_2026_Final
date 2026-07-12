@@ -26,10 +26,18 @@ body {
     font-style: normal;
     max-width: 1000px;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+    min-height: 100vh;
     margin-left: auto;
     margin-right: auto;
     background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    flex: 1;
 }
 
 a{
@@ -95,4 +103,20 @@ a{
     font-family: "Kaisei Decol", serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.footer {
+    /* position: fixed; */
+    /*一番下に標示するように変更する*/
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f4ee82;
+    height: 80px;
+    z-index: 10;
+    max-width: 1000px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-bottom: 0;
+    margin-top: 0;
 }
