@@ -129,6 +129,9 @@ a{
     align-items: center;
     gap: 20px;
     max-width: 600px;
+
+    pointer-events: none;
+    user-select: none;
 }
 
 .food-context-image{
