@@ -45,12 +45,6 @@ a{
     text-decoration: none;
 }
 
-/* .site-menu ul li a {
-    font-family: "Klee One", cursive;
-    font-weight: 400;
-    font-style: normal;
-} */
-
 .header {
         position: fixed;
         top: 0;
@@ -105,6 +99,35 @@ a{
     font-style: normal;
 }
 
+.first-view{
+    margin-top: 80px;
+    display: block;
+    align-items: center;
+    height: calc(70vh - 200px);
+    background-image: url(../images/common/spain_city_02.jpg);
+    max-width: 1000px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    align-items: center;
+}
+
+.Center-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.second-view-text{
+    text-align: center;
+    background: linear-gradient(to bottom, #f9b0bd, #fff5cc, #f9b0bd);
+    /* border-bottom:5px solid #f4ee82; */
+    padding-bottom: 8px;
+}
+
+
 .footer {
     /* position: fixed; */
     /*一番下に標示するように変更する*/
@@ -119,4 +142,96 @@ a{
     margin-right: auto; */
     margin-bottom: 0;
     margin-top: 0;
+}
+
+.footer-logo-title {
+    font-size: 16px;
+    color: #ff5a5f;
+    text-decoration: none;
+}
+
+@media(max-width: 800px){
+    .site-menu ul{
+        display: flex;
+        text-align: center;
+    }
+
+    .site-menu li{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #f4ee82;
+        height: 90px;
+        z-index: 10;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 1);
+    }
+
+    .header-inner{
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 100%;
+        position: relative;
+    }
+
+    .header-logo{
+        width: 100px;
+    }
+
+    .header-title{
+    font-size: 30px;
+    color: #ff5a5f;
+    text-decoration: none;
+    }
+
+    .header-site-menu{
+        position: absolute;
+        top: 100%;
+        left: 0 ;
+        right: 0;
+        color: #ffffff;
+        background-color: #736e62;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        display: none;
+    }
+
+    .header-site-menu.is-show{
+        display: block;
+    }
+
+
+    .toggle-menu-button{
+        display: block;
+        width: 50px;
+        height: 40px;
+        background-image: url(../images/common/icon-menu.png);
+        background-size: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+        outline: none;
+        
+    }
+
+
+    .main{
+        padding-top: 50px;
+        }
+
+    .footer-logo{
+        margin-top: 60px;
+    }
+
+    /* .copyright{
+        margin-top: 50px;
+    } */
 }

@@ -142,7 +142,17 @@ a{
     /* font-size: 1.8vw;
     white-space: nowrap;
     letter-spacing: 0.1em; */
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
+}
+
+.index-context li{
+    font-weight: 700;
+    color: black;
+    margin-left: 20px;
+    padding-left: 20px;
+    font-size: 27px;
 }
 
 .footer {
