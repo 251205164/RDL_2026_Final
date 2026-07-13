@@ -5,12 +5,13 @@
         <title>スペイン紹介</title>
         <meta name="description" content="スペイン観光紹介非公式Webサイト">
         <meta name="viewport" content="width=device-width">
+        <link href="css/common.css" rel="stylesheet">
+        <link href="css/access.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
         <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="js/toggle-menu.js"></script>
-        <link href="css/common.css" rel="stylesheet">
     </head>
     <body>
         <!--heder ここから-->
@@ -32,20 +33,45 @@
             </div>
         </header>
         <!--header ここまで-->
-        <div class="first-view"></div>
-        <div class = "second-view">
-            <div class = "second-view-text">
-                <h1>夢見る スペイン旅行</h1>
-                <p>想像以上を, 体験しよう.</p>
-            </div>
-        </div>
+
+        <nav class = "floating">
+            <ul>
+                <li><a href="#">トップ</a></li>
+            </ul>
+        </nav>
+
         <!--main ここから-->
         <main class="main">
-            <nav class = "floating">
-                <ul>
-                    <li><a href="#">トップ</a></li>
-                </ul>
-            </nav>
+            <div class="title">
+                <h1>アクセス</h1>
+            </div>
+            <div class="plane">
+                <h2>アクセス方法</h2>
+                <h3>直行便</h3>
+                <table>
+                    <thead>
+                        <tr>
+                        <th scope="col">出発地</th>
+                        <th scope="col">到着地</th>
+                        <th scope="col">曜日</th>
+                        <th scope="col">金額</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td>成田</td>
+                        <td>マドリード</td>
+                        <td>火，金，日</td>
+                        <td>¥26.7万～</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>経由便</h3>
+            </div>
+            <div class="map">
+                <h2>アクセスマップ</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61308.24116070862!2d2.0156919136296714!3d41.29424477519493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49e64847c8ea5%3A0xf32be942fb6f9bd7!2z44OQ44Or44K744Ot44OK44O744Ko44Or44O744OX44Op44OD44OI5Zu96Zqb56m65riv!5e0!3m2!1sja!2sjp!4v1783858311721!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
         </main>
         <!--main ここまで-->
         <!--fotter ここから-->
@@ -58,8 +84,7 @@
                         </ul>
                     </nav>
                     <a class="footer-logo" href="index.html">
-                        <!-- <img src="images/common/logo_footer.png" alt ="ロゴ"> -->
-                        <h1 class="footer-logo-title">Sagana News</h1>
+                        <img src="images/common/logo_footer.png" alt ="ロゴ">
                     </a>
         </footer>
         <!--fotter ここまで-->
