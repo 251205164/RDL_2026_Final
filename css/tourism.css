@@ -1,3 +1,5 @@
+
+
 .tourism-context{
     padding-top: 20px;
     padding-left: 80px;
@@ -8,6 +10,8 @@
     align-items: center;
     gap: 20px;
     max-width: 600px;
+
+    /* flex-direction: column; */
 
     pointer-events: none;
     user-select: none;
@@ -21,4 +25,30 @@
 
 .tourism-context-text{
     flex: 1;
+}
+
+@media(max-width: 800px){
+    .tourism-context-image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    }
+
+    .tourism-context {
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center; 
+    gap: 10px; 
+    max-width: 600px;
+    margin-left: auto; 
+    margin-right: auto; 
+    pointer-events: none;
+    user-select: none;
+}
 }
