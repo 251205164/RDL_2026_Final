@@ -80,16 +80,27 @@ tfoot td {
 .map {
     width: 930px;
     max-width: 90%;
-    margin-top: 75px;
+    margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.map h3::before {
+    content: "◇";
+    color: black;
+    margin-right: 5px;
+}
+
+.map h3 {
+    margin-left: 15px;
+    margin-top: 30px;
 }
 
 .map iframe {
     display: block;
     width: 100%;
     height: 600px;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 .footer {
