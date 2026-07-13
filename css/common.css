@@ -156,6 +156,15 @@ a {
 }
 
 @media(max-width: 800px){
+    nav.floating{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        left: auto;
+        top: auto;
+        z-index: 15;
+    }
+
     .site-menu ul{
         display: flex;
         text-align: center;
