@@ -1,3 +1,5 @@
+
+
 .tourism-context{
     padding-top: 20px;
     padding-left: 80px;
@@ -8,6 +10,8 @@
     align-items: center;
     gap: 20px;
     max-width: 600px;
+
+    /* flex-direction: column; */
 
     pointer-events: none;
     user-select: none;
