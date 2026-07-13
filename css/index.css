@@ -269,4 +269,10 @@ a {
     .footer-logo {
         margin-top: 60px;
     }
+
+    .index-context{
+    padding-left: 0cm;
+    padding-right: 0cm;
+    width: 100%;
+}
 }
