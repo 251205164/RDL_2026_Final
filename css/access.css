@@ -25,13 +25,9 @@ html {
 }
 
 .plane h3 {
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 15px;
     margin-bottom: 10px;
-}
-
-.m1 {
-    margin-bottom: 20px;
 }
 
 .plane p a {
@@ -40,6 +36,8 @@ html {
 }
 
 table {
+    margin-top: 20px;
+    margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
@@ -80,7 +78,7 @@ tfoot td {
 .map {
     width: 930px;
     max-width: 90%;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -106,4 +104,22 @@ tfoot td {
 
 .footer {
     margin-top: 50px;
+}
+
+@media(max-width: 800px){
+    .plane {
+        margin-top: -30px;
+    }
+
+    .plane h3 {
+        margin-left: 15px;
+    }
+
+    .table-wrap {
+        overflow-x: scroll;
+    }
+
+    .map h3 {
+        font-size: 90%;
+    }
 }
