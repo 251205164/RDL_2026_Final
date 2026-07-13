@@ -3,13 +3,13 @@ html {
     scroll-behavior: smooth;
 }
 
-.title {
+/* .title {
     width: 930px;
     max-width: 90%;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 .plane {
     width: 930px;
@@ -26,7 +26,7 @@ html {
 
 .plane h3 {
     margin-left: 30px;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 10px;
 }
 
@@ -93,7 +93,7 @@ tfoot td {
 
 .map h3 {
     margin-left: 15px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .map iframe {
@@ -101,6 +101,7 @@ tfoot td {
     width: 100%;
     height: 600px;
     margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .footer {
