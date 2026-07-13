@@ -7,6 +7,11 @@ nav.floating{
     background-color: #d0d0d0;
 }
 
+
+ul {
+    list-style: none;
+}
+
 *,
 ::before,
 ::after{

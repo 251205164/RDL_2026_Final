@@ -160,6 +160,10 @@ a {
     font-size: 27px;
 }
 
+.index-context ul{
+    list-style: inside;
+}
+
 .footer {
     /* position: fixed; */
     /*一番下に標示するように変更する*/
